@@ -1,0 +1,272 @@
+
+.my1 {
+    width: 100%;
+    height: 600px;
+    
+  }
+  .my2 {
+    width: 100%;
+  }
+  .my {
+    width: 100%;
+    height: 600px;
+
+  }
+  .one {
+    margin-top: 4px;
+  }
+  h5 {
+    font-size: 30;
+    margin-bottom: 3%;
+    font-weight: bold;
+    color: white;
+  }
+  
+.jam {
+  width: 100%;
+height: 120px;
+margin-top: 1px;
+padding-left: 5px;
+background-image: linear-gradient(to right,lightblue, rgba(65, 105, 225, 0.881));
+}
+.jam1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 70px;
+  margin-top: 1px;
+  
+}
+.jam2 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+
+}
+#carouselExampleCaptions{
+  margin-top: 2px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  background-color:rgba(0, 0, 255, 0.841);
+}
+.nav-link:hover {
+  background-color:rgba(172, 255, 47, 0.861);
+  transition: 1s;
+  color: black;
+}
+.nav-link {
+  color: white;
+  font-size: 20;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+  
+.offcanvas-body .nav-item .nav-link:hover {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.accordion {
+  margin-top: 2%;
+  
+}
+
+.uc1 {
+  background-image: url(pexels-stanley-morales-3186386.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  
+}
+.ms {
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+.offcanvas-header {
+  background-color: cornflowerblue;
+}
+.offcanvas-title{
+  color: white;
+  font-size: 20;
+}
+.aux {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color:beige;
+  
+}
+.aux1 {
+  color: black;
+  font-size: 30;
+  font-weight: bold;
+}
+body {
+  height: 120vh;
+}
+
+.accordion-body{
+  background-color:aliceblue;
+} 
+
+.accordion-button:hover {
+  background-color: rgba(0, 0, 255, 0.799);
+}
+
+h3 {
+  font-size: 23;
+}
+
+.foot {
+  width: 100%;
+  margin-top: 5%;
+  padding-top: 2%;
+ 
+}
+.foot1 {
+  width: 100%;
+  height: 250px;
+  background-image: url(pexels-pixabay-531756.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+.foot2 {
+  width: 100%;
+  height: 90px;
+ background-color: rgba(0, 0, 0, 0.753);
+  padding-left: 7%;
+
+}
+.foot4 {
+  width: 23%;
+  
+}
+.foot3 {
+  display: block;
+  color: white;
+  line-height: 90px;
+  
+}
+.foot4 ul {
+  padding-left: 1%;
+}
+.foot4 ul li  {
+  list-style: none;
+}
+.foot4 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18;
+
+}
+.foot4 ul .as {
+  font-size: 20;
+  font-weight: 600;
+  color: black;
+}
+.max {
+  color: blue;
+  font-size: 20;
+}
+.facebook {
+      font-size: 30px;
+      background-color: white;
+      color: blue;
+      margin-left: 2%;
+}
+.instagram{
+  font-size:30;
+  margin-left: 2%;
+  background-color: white;
+  color: red;
+}
+label {
+  font-size: 20;
+  font-weight: 600;
+}
+.bic {
+  font-size: 30;
+  background-color: white;
+  color: green;
+  margin-left: 2%;
+}
+
+.nav-link:hover {
+  background-color:rgba(172, 255, 47, 0.861);
+  transition: 1s;
+  color: black;
+}
+.nav-link {
+  color: white;
+  font-size: 20;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media (max-width:200px) {
+  
+    
+  .foot1 {
+    flex-direction: column;
+    margin-top: 8%;
+    
+  }
+  .foot4 {
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  .foot4 ul li a {
+    display: block;
+    width: 100%;
+  }
+  .foot4 ul li .as {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width:768px) {
+  .foot1 {
+    flex-direction: column;
+    height: 550px;
+    margin-top: 8%;
+  }
+  .foot2 {
+    width: 100%;
+  }
+  
+  .foot4 {
+    width: 100%;
+    text-align: center;
+  }
+  .foot4 ul li a {
+    display: block;
+    width: 100%;
+  }
+  .foot4 ul li .as {
+    display: block;
+    width: 100%;
+  }
+  .foot3 {
+    display: block;
+    width: 100%;
+  }
+  
+  
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+nav {
+    background-color: red;
+    height: 80px;
+    width: 100%;
+}
+label.maurex {
+    color: white;
+    font-size: 35;
+    line-height: 80px;
+    margin-left: 20px;
+    
+}
+nav ul  {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover {
+    background: #1b23ffbc;
+    transition: .5s;
+}
+.sam {
+    font-size: 30;
+}
+.checkbtn .icon-th-list {
+    line-height: 80px;
+}
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check {
+    display: none;
+}
+nav {
+    position: fixed;
+}
+
+section {
+    width: 100%;
+    height: 1200px;
+    background:url(pexels-idriss-meliani-2982449.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.now {
+    padding-top: 100px;
+}
+.now2 {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:952px) {
+   
+    nav ul li a{
+         font-size:16px
+    }
+    label.Maurex {
+        font-size: 30px;
+        padding-left: 50px;
+        width: 100%;
+
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: orangered;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+
+    }
+    .now {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+
+    }
+    a:hover,a.active {
+        background : none;
+        color: blue;
+        font-size: 21px;
+    }
+    #check:checked~ ul {
+        left: 0;
+    }
+
+}
+
+nav {
+    opacity: 0.5;
+}

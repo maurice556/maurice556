@@ -1,0 +1,296 @@
+
+.uc1 {
+    background-image: url(pexels-stanley-morales-3186386.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.9;
+  }
+  .offcanvas-body .nav-item .nav-link:hover {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .offcanvas-header {
+    background-color: cornflowerblue;
+  }
+  .fc {
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+  }
+  .foam {
+    width: 50%;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 4%;
+    background-color: beige;
+    
+  }
+  body {
+    background-image: url(tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .foam3 {
+    width: 80%;
+    height: 170px;
+    margin-left: 3%;
+    border-radius: 10px;
+  }
+.foam2 {
+  margin-left: 3%;
+  color: black;
+  font-size: 20;
+  font-weight: 600;
+}
+.btn {
+  margin-left: 1%;
+  margin-bottom: 1%; 
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+.foam4 {
+  border-radius: 1px;
+  width: 80%;
+  margin-left: 3%;
+}
+.foam3:focus {
+  border: 2px solid red;
+}
+.foam4:focus {
+  border: 1px solid red;
+}
+
+.foot {
+  width: 100%;
+  margin-top: 5%;
+  padding-top: 2%;
+ 
+}
+.foot1 {
+  width: 100%;
+  height: 250px;
+  background-image: url(pexels-pixabay-531756.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+.foot2 {
+  width: 100%;
+  height: 90px;
+ background-color: rgba(0, 0, 0, 0.753);
+  padding-left: 7%;
+
+}
+.foot4 {
+  width: 23%;
+  
+}
+.foot3 {
+  display: block;
+  color: white;
+  line-height: 90px;
+  
+}
+.foot4 ul {
+  padding-left: 1%;
+}
+.foot4 ul li  {
+  list-style: none;
+}
+.foot4 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18;
+
+}
+.foot4 ul .as {
+  font-size: 20;
+  font-weight: 600;
+  color: black;
+}
+
+.bic {
+  font-size: 80;
+  background-color: white;
+  color: green;
+  margin-left: 2%;
+}
+
+
+.facebook {
+      font-size: 200px;
+      background-color: white;
+      color: blue;
+      margin-left: 2%;
+}
+.instagram{
+  font-size:large;
+  margin-left: 2%;
+  background-color: white;
+  color: red;
+}
+ul li a:hover{
+  color: white;
+}
+
+label {
+  font-size: 20;
+  font-weight: 600;
+}
+
+
+.jam {
+  width: 100%;
+height: 120px;
+margin-top: 1px;
+padding-left: 5px;
+background-image: linear-gradient(to right,lightblue, rgba(65, 105, 225, 0.881));
+}
+.jam1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 70px;
+  margin-top: 1px;
+  
+}
+.jam2 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+
+}
+#carouselExampleCaptions{
+  margin-top: 2px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar {
+  background-color:rgba(0, 0, 255, 0.841);
+}
+.nav-link:hover {
+  background-color:rgba(172, 255, 47, 0.861);
+  transition: 1s;
+  color: black;
+}
+.nav-link {
+  color: white;
+  font-size: 20;
+  font-family: 'Times New Roman', Times, serif;
+}
+#glk1{
+  background-color: blue;
+  color: white;
+  font-size: 19;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+#glk1:hover{
+  cursor: pointer;
+  font-size: 20;
+  background-color: red;
+  
+}
+
+
+
+
+@media (max-width:600px) {
+  .foam {
+    flex-direction: column;
+    
+    
+    
+
+  }
+  
+  .foot1 {
+    flex-direction: column;
+    margin-top: 8%;
+    
+  }
+  .foot2 {
+    width: 100%;
+  }
+  .foot4 {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+  .foot4 ul li a {
+    display: block;
+    width: 100%;
+  }
+  .foot4 ul li .as {
+    display: block;
+    width: 100%;
+  }
+  .foot3 {
+    display: block;
+    width: 100%;
+  }
+  
+  .foot1 {
+    flex-direction: column;
+    height: 550px;
+    margin-top: 8%;
+  }
+}
+
+@media (max-width:800px) {
+  .foam {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1%;
+  }
+  
+  .foot1 {
+    flex-direction: column;
+    margin-top: 8%;
+    
+  }
+  .foot2 {
+    width: 100%;
+  }
+  .foot4 {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+  .foot4 ul li a {
+    display: block;
+    width: 100%;
+  }
+  .foot4 ul li .as {
+    display: block;
+    width: 100%;
+  }
+  .foot3 {
+    display: block;
+    width: 100%;
+  }
+  
+  .foot1 {
+    flex-direction: column;
+    height: 550px;
+    margin-top: 8%;
+  }
+}
